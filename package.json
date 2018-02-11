@@ -1,0 +1,16 @@
+{
+  "name": "akara-weather",
+  "version": "1.0.0",
+  "description": "Weather API wrapper around Dark Sky's API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "author": "Linus Lee",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  }
+}
