@@ -3,7 +3,7 @@ const server = Express();
 const request = require('request');
 const fs = require('fs');
 
-const DARKSKY_API_KEY = fs.readFileSync('./key.txt', {encoding: 'utf8'});
+const DARKSKY_API_KEY = fs.readFileSync('./key.txt', {encoding: 'utf8'}).trim();
 
 const request_cache = {
     body: {
